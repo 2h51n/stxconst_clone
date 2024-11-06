@@ -51,7 +51,7 @@ body {
   clear: both;
 }
 /* 모달창 */
-.modal-wrap{
+.modal-wrap {
   position: fixed;
   top: 0;
   left: 0;
@@ -60,47 +60,47 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999999;
 }
-.modal-main{
+.modal-main {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   width: 600px;
   height: 500px;
   background-color: #fff;
   text-align: center;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding-top: 150px;
-border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 150px;
+  border-radius: 30px;
 }
-.modal-logo{
+.modal-logo {
   position: absolute;
   display: block;
   top: -50px;
   left: 50%;
-  transform: translate( -50%);
+  transform: translate(-50%);
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: url("../images/chat-btn.png")no-repeat center #dbf4c7;
+  background: url("../images/chat-btn.png") no-repeat center #dbf4c7;
   border: 6px solid #fff;
 }
-.modal-notice{
+.modal-notice {
   font-size: 20px;
   font-weight: 500;
   line-height: 2;
 }
-.modal-notice strong{
+.modal-notice strong {
   color: red;
-  background: linear-gradient(to top , yellow 50% , transparent 50%);
+  background: linear-gradient(to top, yellow 50%, transparent 50%);
 }
-.modal-notice span{
+.modal-notice span {
   font-size: 16px;
   font-weight: 300;
 }
-.modal-close{
+.modal-close {
   background-color: #d8d8d8;
   padding: 15px;
   border-radius: 0 0 30px 30px;
@@ -167,10 +167,10 @@ border-radius: 30px;
   text-align: center;
   box-shadow: 0px 3px 7px 0 rgb(0, 0, 0, 0.3);
 }
-.top-btn img{
+.top-btn img {
   transform: rotate(180deg);
 }
-.top-btn img.up{
+.top-btn img.up {
   transform: rotate(0deg);
 }
 /* 전체 레이아웃 */
@@ -364,7 +364,7 @@ border-radius: 30px;
   font-weight: 600;
   color: #111;
   padding-bottom: 31px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .business-title::after {
   content: "";
